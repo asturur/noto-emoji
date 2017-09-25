@@ -1,6 +1,6 @@
 {
   "name": "asturur-noto-emoji",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "apiVersion": "v1",
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
     "third_party/region-flags/svg/"
   ],
   "scripts": {
-    "svgo": "svgo  -f ./svg --config='{ \"plugins\": [ { \"addAttributesToSVGElement\": { \"attributes\": [\"width=\\\"512px\\\"\", \"height=\\\"512px\\\"\"] } } ], \"pretty\": true }'",
-    "svgobig": "svgo  -f ./svg --config='{ \"plugins\": [ { \"addAttributesToSVGElement\": { \"attributes\": [\"width=\\\"2048px\\\"\", \"height=\\\"2048px\\\"\"] } } ], \"pretty\": true }'"
+    "svgo": "svgo  -f ./svg --config='{ \"pretty\": true }'"
   }
 }
