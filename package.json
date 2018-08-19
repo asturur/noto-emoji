@@ -15,5 +15,8 @@
   ],
   "scripts": {
     "svgo": "svgo  -f ./svg --config='{ \"pretty\": true }'"
+  },
+  "devDependencies": {
+    "svgo": "^1.0.5"
   }
 }
