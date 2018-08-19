@@ -7,6 +7,11 @@ https://github.com/googlei18n/noto-emoji/
 This package is just a npm installable version of the resulting PNG and SVG emoji.
 No font or building tool available in this npm package
 
+Version 4 of the package is updated to Unicode 11
+Version 3 is updated to Unicode 10
+Version 2 is updated to Unicode 9
+Version 1 Has the google yellow blobs
+
 ## License
 
 Emoji fonts (under the fonts subdirectory) are under the
