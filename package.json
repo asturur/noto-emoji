@@ -14,7 +14,7 @@
     "third_party/region-flags/svg/"
   ],
   "scripts": {
-    "svgo": "svgo  -f ./svg --config='{ \"pretty\": true }'",
+    "svgo": "svgo  -f ./svg --config='{ \"plugins\": [ { \"addAttributesToSVGElement\": { \"attributes\": [\"width=\\\"512px\\\"\", \"height=\\\"512px\\\"\"] } } ], \"pretty\": true }'",
     "svgo-flags": "svgo  -f ./third_party/region-flags/svg --config='{ \"pretty\": true }'"
   },
   "devDependencies": {
